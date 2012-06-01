@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3118D60215795F0900286F61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3118D60115795F0900286F61 /* UIKit.framework */; };
+		3118D60415795F0900286F61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3118D60315795F0900286F61 /* Foundation.framework */; };
+		3118D60615795F0900286F61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3118D60515795F0900286F61 /* CoreGraphics.framework */; };
+		3118D60815795F0900286F61 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3118D60715795F0900286F61 /* CoreData.framework */; };
+		3118D60E15795F0900286F61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3118D60C15795F0900286F61 /* InfoPlist.strings */; };
+		3118D61015795F0900286F61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3118D60F15795F0900286F61 /* main.m */; };
+		3118D61415795F0900286F61 /* AvvaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3118D61315795F0900286F61 /* AvvaAppDelegate.m */; };
+		3118D61715795F0900286F61 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3118D61515795F0900286F61 /* MainWindow.xib */; };
+		3118D61A15795F0900286F61 /* Avva.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3118D61815795F0900286F61 /* Avva.xcdatamodeld */; };
+		3118D62215795F0900286F61 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3118D62115795F0900286F61 /* SenTestingKit.framework */; };
+		3118D62315795F0900286F61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3118D60115795F0900286F61 /* UIKit.framework */; };
+		3118D62415795F0900286F61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3118D60315795F0900286F61 /* Foundation.framework */; };
+		3118D62515795F0900286F61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3118D60515795F0900286F61 /* CoreGraphics.framework */; };
+		3118D62615795F0900286F61 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3118D60715795F0900286F61 /* CoreData.framework */; };
+		3118D62E15795F0900286F61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3118D62C15795F0900286F61 /* InfoPlist.strings */; };
+		3118D63015795F0900286F61 /* AvvaTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 3118D62F15795F0900286F61 /* AvvaTests.h */; };
+		3118D63215795F0900286F61 /* AvvaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3118D63115795F0900286F61 /* AvvaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3118D62715795F0900286F61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3118D5F415795F0900286F61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3118D5FC15795F0900286F61;
+			remoteInfo = Avva;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3118D5FD15795F0900286F61 /* Avva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avva.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3118D60115795F0900286F61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3118D60315795F0900286F61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3118D60515795F0900286F61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3118D60715795F0900286F61 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3118D60B15795F0900286F61 /* Avva-Info.plist */ = {isa = PBXFileReference; path = "Avva-Info.plist"; sourceTree = "<group>"; };
+		3118D60D15795F0900286F61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3118D60F15795F0900286F61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3118D61115795F0900286F61 /* Avva-Prefix.pch */ = {isa = PBXFileReference; path = "Avva-Prefix.pch"; sourceTree = "<group>"; };
+		3118D61215795F0900286F61 /* AvvaAppDelegate.h */ = {isa = PBXFileReference; path = AvvaAppDelegate.h; sourceTree = "<group>"; };
+		3118D61315795F0900286F61 /* AvvaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvvaAppDelegate.m; sourceTree = "<group>"; };
+		3118D61615795F0900286F61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3118D61915795F0900286F61 /* Avva.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Avva.xcdatamodel; sourceTree = "<group>"; };
+		3118D62015795F0900286F61 /* AvvaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvvaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3118D62115795F0900286F61 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3118D62B15795F0900286F61 /* AvvaTests-Info.plist */ = {isa = PBXFileReference; path = "AvvaTests-Info.plist"; sourceTree = "<group>"; };
+		3118D62D15795F0900286F61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3118D62F15795F0900286F61 /* AvvaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvvaTests.h; sourceTree = "<group>"; };
+		3118D63115795F0900286F61 /* AvvaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvvaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3118D5FA15795F0900286F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3118D60215795F0900286F61 /* UIKit.framework in Frameworks */,
+				3118D60415795F0900286F61 /* Foundation.framework in Frameworks */,
+				3118D60615795F0900286F61 /* CoreGraphics.framework in Frameworks */,
+				3118D60815795F0900286F61 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3118D61C15795F0900286F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3118D62215795F0900286F61 /* SenTestingKit.framework in Frameworks */,
+				3118D62315795F0900286F61 /* UIKit.framework in Frameworks */,
+				3118D62415795F0900286F61 /* Foundation.framework in Frameworks */,
+				3118D62515795F0900286F61 /* CoreGraphics.framework in Frameworks */,
+				3118D62615795F0900286F61 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3118D5F215795F0900286F61 = {
+			isa = PBXGroup;
+			children = (
+				3118D60915795F0900286F61 /* Avva */,
+				3118D62915795F0900286F61 /* AvvaTests */,
+				3118D60015795F0900286F61 /* Frameworks */,
+				3118D5FE15795F0900286F61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3118D5FE15795F0900286F61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3118D5FD15795F0900286F61 /* Avva.app */,
+				3118D62015795F0900286F61 /* AvvaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3118D60015795F0900286F61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3118D60115795F0900286F61 /* UIKit.framework */,
+				3118D60315795F0900286F61 /* Foundation.framework */,
+				3118D60515795F0900286F61 /* CoreGraphics.framework */,
+				3118D60715795F0900286F61 /* CoreData.framework */,
+				3118D62115795F0900286F61 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3118D60915795F0900286F61 /* Avva */ = {
+			isa = PBXGroup;
+			children = (
+				3118D61215795F0900286F61 /* AvvaAppDelegate.h */,
+				3118D61315795F0900286F61 /* AvvaAppDelegate.m */,
+				3118D61515795F0900286F61 /* MainWindow.xib */,
+				3118D61815795F0900286F61 /* Avva.xcdatamodeld */,
+				3118D60A15795F0900286F61 /* Supporting Files */,
+			);
+			path = Avva;
+			sourceTree = "<group>";
+		};
+		3118D60A15795F0900286F61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3118D60B15795F0900286F61 /* Avva-Info.plist */,
+				3118D60C15795F0900286F61 /* InfoPlist.strings */,
+				3118D60F15795F0900286F61 /* main.m */,
+				3118D61115795F0900286F61 /* Avva-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3118D62915795F0900286F61 /* AvvaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3118D62F15795F0900286F61 /* AvvaTests.h */,
+				3118D63115795F0900286F61 /* AvvaTests.m */,
+				3118D62A15795F0900286F61 /* Supporting Files */,
+			);
+			path = AvvaTests;
+			sourceTree = "<group>";
+		};
+		3118D62A15795F0900286F61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3118D62B15795F0900286F61 /* AvvaTests-Info.plist */,
+				3118D62C15795F0900286F61 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3118D5FC15795F0900286F61 /* Avva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3118D63515795F0900286F61 /* Build configuration list for PBXNativeTarget "Avva" */;
+			buildPhases = (
+				3118D5F915795F0900286F61 /* Sources */,
+				3118D5FA15795F0900286F61 /* Frameworks */,
+				3118D5FB15795F0900286F61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Avva;
+			productName = Avva;
+			productReference = 3118D5FD15795F0900286F61 /* Avva.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3118D61F15795F0900286F61 /* AvvaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3118D63815795F0900286F61 /* Build configuration list for PBXNativeTarget "AvvaTests" */;
+			buildPhases = (
+				3118D61B15795F0900286F61 /* Sources */,
+				3118D61C15795F0900286F61 /* Frameworks */,
+				3118D61D15795F0900286F61 /* Resources */,
+				3118D61E15795F0900286F61 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3118D62815795F0900286F61 /* PBXTargetDependency */,
+			);
+			name = AvvaTests;
+			productName = AvvaTests;
+			productReference = 3118D62015795F0900286F61 /* AvvaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3118D5F415795F0900286F61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Stanford University";
+			};
+			buildConfigurationList = 3118D5F715795F0900286F61 /* Build configuration list for PBXProject "Avva" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3118D5F215795F0900286F61;
+			productRefGroup = 3118D5FE15795F0900286F61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3118D5FC15795F0900286F61 /* Avva */,
+				3118D61F15795F0900286F61 /* AvvaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3118D5FB15795F0900286F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3118D60E15795F0900286F61 /* InfoPlist.strings in Resources */,
+				3118D61715795F0900286F61 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3118D61D15795F0900286F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3118D62E15795F0900286F61 /* InfoPlist.strings in Resources */,
+				3118D63015795F0900286F61 /* AvvaTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3118D61E15795F0900286F61 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3118D5F915795F0900286F61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3118D61015795F0900286F61 /* main.m in Sources */,
+				3118D61415795F0900286F61 /* AvvaAppDelegate.m in Sources */,
+				3118D61A15795F0900286F61 /* Avva.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3118D61B15795F0900286F61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3118D63215795F0900286F61 /* AvvaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3118D62815795F0900286F61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3118D5FC15795F0900286F61 /* Avva */;
+			targetProxy = 3118D62715795F0900286F61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3118D60C15795F0900286F61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3118D60D15795F0900286F61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3118D61515795F0900286F61 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3118D61615795F0900286F61 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		3118D62C15795F0900286F61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3118D62D15795F0900286F61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3118D63315795F0900286F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3118D63415795F0900286F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3118D63615795F0900286F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Avva/Avva-Prefix.pch";
+				INFOPLIST_FILE = "Avva/Avva-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3118D63715795F0900286F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Avva/Avva-Prefix.pch";
+				INFOPLIST_FILE = "Avva/Avva-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3118D63915795F0900286F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Avva.app/Avva";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Avva/Avva-Prefix.pch";
+				INFOPLIST_FILE = "AvvaTests/AvvaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3118D63A15795F0900286F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Avva.app/Avva";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Avva/Avva-Prefix.pch";
+				INFOPLIST_FILE = "AvvaTests/AvvaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3118D5F715795F0900286F61 /* Build configuration list for PBXProject "Avva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3118D63315795F0900286F61 /* Debug */,
+				3118D63415795F0900286F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3118D63515795F0900286F61 /* Build configuration list for PBXNativeTarget "Avva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3118D63615795F0900286F61 /* Debug */,
+				3118D63715795F0900286F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3118D63815795F0900286F61 /* Build configuration list for PBXNativeTarget "AvvaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3118D63915795F0900286F61 /* Debug */,
+				3118D63A15795F0900286F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3118D61815795F0900286F61 /* Avva.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3118D61915795F0900286F61 /* Avva.xcdatamodel */,
+			);
+			currentVersion = 3118D61915795F0900286F61 /* Avva.xcdatamodel */;
+			path = Avva.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3118D5F415795F0900286F61 /* Project object */;
+}
