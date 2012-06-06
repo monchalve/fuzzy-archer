@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="562" systemVersion="11C74" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="List">
+        <relationship name="ListQuestions" optional="YES" toMany="YES" maxCount="64" deletionRule="Nullify" destinationEntity="Question"/>
+    </entity>
+    <entity name="Question">
+        <attribute name="priority" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="User">
+        <attribute name="over_40" optional="YES" attributeType="Boolean"/>
+        <attribute name="stage" optional="YES" attributeType="String"/>
+        <attribute name="triple_negative" optional="YES" attributeType="Boolean"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="UserList" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="List"/>
+    </entity>
+    <elements>
+        <element name="List" positionX="160" positionY="192" width="128" height="60"/>
+        <element name="Question" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="User" positionX="160" positionY="192" width="128" height="105"/>
+    </elements>
 </model>

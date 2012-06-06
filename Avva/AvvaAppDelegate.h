@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WelcomeFormController.h"
 
 @interface AvvaAppDelegate : NSObject <UIApplicationDelegate>
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet WelcomeFormController *wfc;
 
 @property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
@@ -18,5 +20,6 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+- (void) removeImage:(UIImageView *)iv;
 
 @end

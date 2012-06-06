@@ -7,6 +7,18 @@
 //
 
 #import "AvvaAppDelegate.h"
+#define AVVA_LOGO_HEIGHT 447
+#define AVVA_LOGO_WIDTH 447
+
+@implementation UIImageView (RotateImage)
+
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations
+    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+@end
 
 @implementation AvvaAppDelegate
 
@@ -14,12 +26,36 @@
 @synthesize managedObjectContext = __managedObjectContext;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
+@synthesize wfc;
+
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [self.window makeKeyAndVisible];
+    UIImageView *sv =[[UIImageView alloc] initWithFrame:CGRectMake((self.window.frame.size.width - AVVA_LOGO_WIDTH)/2,(self.window.frame.size.height - AVVA_LOGO_HEIGHT)/2, AVVA_LOGO_WIDTH, AVVA_LOGO_HEIGHT)];
+    
+    sv.image = [UIImage imageNamed:@"avvalogo.png"];
+    
+    [self.window addSubview:sv];
+    [self.window bringSubviewToFront:sv];
+    
+    self.wfc = [[WelcomeFormController alloc] initWithNibName:@"WelcomeFormController" bundle:nil];
+    self.wfc.managedObjectContext = self.managedObjectContext;
+    
+    [self performSelector:@selector(removeImage:) withObject:sv afterDelay:2.5];
+    
     return YES;
+}
+
+- (void) removeImage:(UIImageView *)iv
+{
+    [iv removeFromSuperview];
+    [iv release];
+    
+    [self.window addSubview:self.wfc.view];
+    [self.window makeKeyAndVisible];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -69,6 +105,7 @@
 
 - (void)awakeFromNib
 {
+    NSLog(@"Awake from NIB");
     /*
      Typically you should set up the Core Data stack here, usually by passing the managed object context to the first view controller.
      self.<#View controller#>.managedObjectContext = self.managedObjectContext;

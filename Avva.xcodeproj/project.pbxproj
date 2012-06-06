@@ -24,6 +24,11 @@
 		3118D62E15795F0900286F61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3118D62C15795F0900286F61 /* InfoPlist.strings */; };
 		3118D63015795F0900286F61 /* AvvaTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 3118D62F15795F0900286F61 /* AvvaTests.h */; };
 		3118D63215795F0900286F61 /* AvvaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3118D63115795F0900286F61 /* AvvaTests.m */; };
+		3118D6421579653600286F61 /* avvalogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3118D6411579653600286F61 /* avvalogo.png */; };
+		3118D64815796B3F00286F61 /* WelcomeFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3118D64615796B3F00286F61 /* WelcomeFormController.m */; };
+		3118D64915796B3F00286F61 /* WelcomeFormController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3118D64715796B3F00286F61 /* WelcomeFormController.xib */; };
+		31C0B60B1579770F0003C8C5 /* avvalogo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 31C0B60A1579770F0003C8C5 /* avvalogo2.png */; };
+		31C0B60E157985B80003C8C5 /* WelcomeFormDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C0B60D157985B80003C8C5 /* WelcomeFormDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,20 +47,27 @@
 		3118D60315795F0900286F61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3118D60515795F0900286F61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3118D60715795F0900286F61 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		3118D60B15795F0900286F61 /* Avva-Info.plist */ = {isa = PBXFileReference; path = "Avva-Info.plist"; sourceTree = "<group>"; };
+		3118D60B15795F0900286F61 /* Avva-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Avva-Info.plist"; sourceTree = "<group>"; };
 		3118D60D15795F0900286F61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3118D60F15795F0900286F61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3118D61115795F0900286F61 /* Avva-Prefix.pch */ = {isa = PBXFileReference; path = "Avva-Prefix.pch"; sourceTree = "<group>"; };
-		3118D61215795F0900286F61 /* AvvaAppDelegate.h */ = {isa = PBXFileReference; path = AvvaAppDelegate.h; sourceTree = "<group>"; };
+		3118D61115795F0900286F61 /* Avva-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Avva-Prefix.pch"; sourceTree = "<group>"; };
+		3118D61215795F0900286F61 /* AvvaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvvaAppDelegate.h; sourceTree = "<group>"; };
 		3118D61315795F0900286F61 /* AvvaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvvaAppDelegate.m; sourceTree = "<group>"; };
 		3118D61615795F0900286F61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		3118D61915795F0900286F61 /* Avva.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Avva.xcdatamodel; sourceTree = "<group>"; };
 		3118D62015795F0900286F61 /* AvvaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvvaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3118D62115795F0900286F61 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3118D62B15795F0900286F61 /* AvvaTests-Info.plist */ = {isa = PBXFileReference; path = "AvvaTests-Info.plist"; sourceTree = "<group>"; };
+		3118D62B15795F0900286F61 /* AvvaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AvvaTests-Info.plist"; sourceTree = "<group>"; };
 		3118D62D15795F0900286F61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3118D62F15795F0900286F61 /* AvvaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvvaTests.h; sourceTree = "<group>"; };
 		3118D63115795F0900286F61 /* AvvaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvvaTests.m; sourceTree = "<group>"; };
+		3118D6411579653600286F61 /* avvalogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avvalogo.png; sourceTree = "<group>"; };
+		3118D64515796B3F00286F61 /* WelcomeFormController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeFormController.h; sourceTree = "<group>"; };
+		3118D64615796B3F00286F61 /* WelcomeFormController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeFormController.m; sourceTree = "<group>"; };
+		3118D64715796B3F00286F61 /* WelcomeFormController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeFormController.xib; sourceTree = "<group>"; };
+		31C0B60A1579770F0003C8C5 /* avvalogo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avvalogo2.png; sourceTree = "<group>"; };
+		31C0B60C157985B80003C8C5 /* WelcomeFormDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeFormDataSource.h; sourceTree = "<group>"; };
+		31C0B60D157985B80003C8C5 /* WelcomeFormDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeFormDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +131,9 @@
 		3118D60915795F0900286F61 /* Avva */ = {
 			isa = PBXGroup;
 			children = (
-				3118D61215795F0900286F61 /* AvvaAppDelegate.h */,
-				3118D61315795F0900286F61 /* AvvaAppDelegate.m */,
-				3118D61515795F0900286F61 /* MainWindow.xib */,
+				3118D64415796AF500286F61 /* WelcomeFormController */,
+				3118D6431579653A00286F61 /* images */,
+				31C0B608157973FD0003C8C5 /* AvvaAppDelegate */,
 				3118D61815795F0900286F61 /* Avva.xcdatamodeld */,
 				3118D60A15795F0900286F61 /* Supporting Files */,
 			);
@@ -156,6 +168,45 @@
 				3118D62C15795F0900286F61 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3118D6431579653A00286F61 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				31C0B60A1579770F0003C8C5 /* avvalogo2.png */,
+				3118D6411579653600286F61 /* avvalogo.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		3118D64415796AF500286F61 /* WelcomeFormController */ = {
+			isa = PBXGroup;
+			children = (
+				31C0B60F157985C50003C8C5 /* Data Source */,
+				3118D64515796B3F00286F61 /* WelcomeFormController.h */,
+				3118D64615796B3F00286F61 /* WelcomeFormController.m */,
+				3118D64715796B3F00286F61 /* WelcomeFormController.xib */,
+			);
+			name = WelcomeFormController;
+			sourceTree = "<group>";
+		};
+		31C0B608157973FD0003C8C5 /* AvvaAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3118D61215795F0900286F61 /* AvvaAppDelegate.h */,
+				3118D61315795F0900286F61 /* AvvaAppDelegate.m */,
+				3118D61515795F0900286F61 /* MainWindow.xib */,
+			);
+			name = AvvaAppDelegate;
+			sourceTree = "<group>";
+		};
+		31C0B60F157985C50003C8C5 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				31C0B60C157985B80003C8C5 /* WelcomeFormDataSource.h */,
+				31C0B60D157985B80003C8C5 /* WelcomeFormDataSource.m */,
+			);
+			name = "Data Source";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +281,9 @@
 			files = (
 				3118D60E15795F0900286F61 /* InfoPlist.strings in Resources */,
 				3118D61715795F0900286F61 /* MainWindow.xib in Resources */,
+				3118D6421579653600286F61 /* avvalogo.png in Resources */,
+				3118D64915796B3F00286F61 /* WelcomeFormController.xib in Resources */,
+				31C0B60B1579770F0003C8C5 /* avvalogo2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +322,8 @@
 				3118D61015795F0900286F61 /* main.m in Sources */,
 				3118D61415795F0900286F61 /* AvvaAppDelegate.m in Sources */,
 				3118D61A15795F0900286F61 /* Avva.xcdatamodeld in Sources */,
+				3118D64815796B3F00286F61 /* WelcomeFormController.m in Sources */,
+				31C0B60E157985B80003C8C5 /* WelcomeFormDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +495,7 @@
 				3118D63715795F0900286F61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3118D63815795F0900286F61 /* Build configuration list for PBXNativeTarget "AvvaTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +504,7 @@
 				3118D63A15795F0900286F61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
